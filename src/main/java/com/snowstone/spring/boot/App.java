@@ -1,4 +1,4 @@
-package com.sweetstone.spring.boot;
+package com.snowstone.spring.boot;
 
 /**
  * Hello world!

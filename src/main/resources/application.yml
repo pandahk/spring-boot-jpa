@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 135778 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://103.200.30.232:3306/sms
