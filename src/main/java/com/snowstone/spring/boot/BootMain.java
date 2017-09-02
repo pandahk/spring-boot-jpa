@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+
 @Controller
 @EnableAutoConfiguration
 @ComponentScan({"com.snowstone.spring.boot"})
@@ -25,6 +26,4 @@ public class BootMain {
 //		myService.find();
 		return userRepository.findAll();
 	}
-
-	
 }
